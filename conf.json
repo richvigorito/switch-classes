@@ -1,0 +1,10 @@
+{
+       "mqttHost": "mqtt",
+       "mqttPort": "1883",
+       "devices": [
+            {"uid":"a1", "room": "common area","name": "back porch", "protocol":"x10","status":"active","commands": ["on","off"]},
+            {"uid":"b1", "room": "living room","name": "front porch", "protocol":"x10","status":"active","commands": ["on","off"]},
+            {"uid":"b2", "room": "living room","name": "living room light", "protocol":"x10","status":"active","commands": ["on","off","dim","bright"]},
+            {"uid":"31", "room": "bedroom","name": "power strip", "protocol":"x10","status":"active","commands": ["on","off"]}
+       ]
+}
