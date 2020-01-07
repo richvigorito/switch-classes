@@ -8,7 +8,7 @@ setup(
     author='Rich Vigorito',
     author_email='nicetry',
     license='unlicense',
-    packages=['richvigorito'],
+    packages=['switch-classes'],
     zip_safe=False
 )
 
