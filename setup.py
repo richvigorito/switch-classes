@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='switch-classes',
+    name='switch_classes',
     version='0.0.1',
     description='Switch Classes',
     url='git@github.com:richvigorito/switch-classes.git',
