@@ -6,9 +6,10 @@ setup(
     description='Switch Classes',
     url='git@github.com:richvigorito/switch-classes.git',
     author='Rich Vigorito',
-    author_email='nicetry',
+    author_email='nicetry.bozo@gmail.com',
     license='unlicense',
-    packages=['switch-classes'],
+    package_dir={'':'src'},
+    packages=find_packages(where='src')
     zip_safe=False
 )
 
