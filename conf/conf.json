@@ -1,6 +1,5 @@
 {
-       "mqttHost": "mqtt",
-       "mqttPort": "1883",
+       "houseName": "Rich's Rad Pad",
        "devices": [
             {"uid":"a1", "room": "common area","name": "back porch", "protocol":"x10","status":"active","commands": ["on","off"]},
             {"uid":"b1", "room": "living room","name": "front porch", "protocol":"x10","status":"active","commands": ["on","off"]},

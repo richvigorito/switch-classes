@@ -8,7 +8,7 @@ setup(
     author='Rich Vigorito',
     author_email='nicetry.bozo@gmail.com',
     license='unlicense',
-    package_dir={'':'src'},
+    package_dir={'': 'src'},
     packages=find_packages(where='src'),
     zip_safe=False
 )

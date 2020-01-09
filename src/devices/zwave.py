@@ -1,4 +1,4 @@
-from device import * 
+from .device import * 
 
 class ZWave(Device): 
 

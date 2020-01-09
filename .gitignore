@@ -5,6 +5,7 @@ supervisord.log
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.pyc
 *$py.class
 __init__.py
 
@@ -104,3 +105,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+
+*.swp
+*.swo

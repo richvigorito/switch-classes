@@ -1,6 +1,6 @@
-from devices.device  import  *
-from devices.x10  import  *
-from devices.zwave  import  *
+from devices.device import  *
+from devices.x10 import  *
+from devices.zwave import  *
 
 class House: 
   
