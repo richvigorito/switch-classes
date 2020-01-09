@@ -8,8 +8,9 @@ setup(
     author='Rich Vigorito',
     author_email='nicetry.bozo@gmail.com',
     license='unlicense',
-    package_dir={'': 'src'},
-    packages=find_packages(where='src'),
+    package_dir={'switch_classes': 'src'},
+    #packages=find_packages(where='src'),
+    packages=['src'],
     #packages=[house,devices,loadhouse]
     #python_requires='>=3.1.*, <4',
     #install_requires=['json'],
