@@ -12,7 +12,7 @@ setup(
     packages=find_packages(where='src'),
     #packages=[house,devices,loadhouse]
     #python_requires='>=3.1.*, <4',
-    install_requires=['json'],
+    #install_requires=['json'],
     zip_safe=False
 
 )
