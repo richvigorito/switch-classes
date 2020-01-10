@@ -9,7 +9,8 @@ setup(
     author_email='nicetry.bozo@gmail.com',
     license='unlicense',
     package_dir={'switch_classes': 'src'},
-    packages=find_packages(),
+    #packages=find_packages(),
+    packages=['src','src.house','src.devices'],
     include_package_data=True,
     #packages=['src'],
     #packages=[house,devices,loadhouse]
