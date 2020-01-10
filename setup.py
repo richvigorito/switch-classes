@@ -13,6 +13,7 @@ setup(
     #packages=find_packages(),
     packages=['src','src.house','src.devices'],
     include_package_data=True,
+    ext_modules=[Extension('switches.src', ['switches.src','switches.src.house','switches.src.devices'])]
     #packages=['src'],
     #packages=[house,devices,loadhouse]
     #python_requires='>=3.1.*, <4',
