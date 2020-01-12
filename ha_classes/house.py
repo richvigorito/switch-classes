@@ -1,6 +1,6 @@
-from device import  *
-from ha_classes.x10 import  *
-from ha_classes.zwave import  *
+#from device import  *
+#from ha_classes.x10 import  *
+#from ha_classes.zwave import  *
 
 class House: 
   
