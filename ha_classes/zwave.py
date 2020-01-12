@@ -1,4 +1,4 @@
-from device import * 
+from ha_classes.device import * 
 
 class ZWave(Device): 
 

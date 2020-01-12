@@ -1,7 +1,7 @@
-from house import *
-from device  import  *
-from x10  import  *
-from zwave  import  *
+from ha_classes.house import *
+from ha_classes.device  import  *
+from ha_classes.x10  import  *
+from ha_classes.zwave  import  *
 import json
 
 
