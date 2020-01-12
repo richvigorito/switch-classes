@@ -8,10 +8,11 @@ setup(
     author='Rich Vigorito',
     author_email='nicetry.bozo@gmail.com',
     license='unlicense',
-    package_dir={'switch_classes': 'src'},
+    #package_dir={'switch_classes': 'src'},
+    package_dir={'switch_devices': 'src/switch_devices'},
     #package_dir={'': 'src'},
     #packages=find_packages(),
-    packages=['src','src.house','src.devices'],
+    packages=['switch_devices','switch_devices.house','switch_devices.devices'],
     include_package_data=True,
     ext_modules=[Extension('switches.src', ['switches.src','switches.src.house','switches.src.devices'])]
     #packages=['src'],
