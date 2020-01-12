@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='switches',
+    name='ha_classes',
     version='0.0.1',
-    description='Switch Classes',
+    description='Home Automation Classes',
     url='git@github.com:richvigorito/switch_classes.git',
     author='Rich Vigorito',
     author_email='nicetry.bozo@gmail.com',
@@ -11,8 +11,8 @@ setup(
     #package_dir={'switch_classes': 'src'},
     #package_dir={'switch_devices': 'src/switch_devices'},
     #package_dir={'switches': 'src'},
-    package_dir={'': 'ha_classes'},
-    #packages=find_packages(),
+    #package_dir={'': 'ha_classes'},
+    packages=find_packages(),
     packages=['ha_classes','ha_classes.house','ha_classes.devices'],
     include_package_data=True,
    # ext_modules=[Extension('switches.src', ['switches.src','switches.src.house','switches.src.devices'])],
