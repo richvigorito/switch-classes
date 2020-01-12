@@ -12,7 +12,7 @@ setup(
     #package_dir={'switch_devices': 'src/switch_devices'},
     #package_dir={'switches': 'src'},
     #package_dir={'': 'ha_classes'},
-    packages=find_packages(),
+   # packages=find_packages(),
     packages=['ha_classes','ha_classes.house','ha_classes.devices'],
     include_package_data=True,
    # ext_modules=[Extension('switches.src', ['switches.src','switches.src.house','switches.src.devices'])],
