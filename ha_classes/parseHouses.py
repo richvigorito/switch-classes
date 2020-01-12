@@ -16,9 +16,9 @@ def buildFromFile(conf):
             continue
 
         if 'x10' == device['protocol']: 
-            d = X10(device['uid'],device['name'],device['room'],device['commands'])
+            d = X10(device['id'],device['name'],device['room'],device['controls'])
         elif 'zwave' == device['protocol']: 
-            d = ZWave(device['uid'],device['name'],device['room'],device['commands'])
+            d = ZWave(device['id'],device['name'],device['room'],device['controls'])
         myHouse.addDevice(d)
     return myHouse
 
