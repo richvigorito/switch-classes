@@ -1,15 +1,15 @@
-from .device import * 
+from device import * 
 
-class X10(Device): 
+class ZWave(Device): 
 
     def __init__(self, uid, name, room, commands):
         self.uid = uid
         self.name = name
         self.room = room
         self.commands = commands
-        self.protocol = 'zwave'
+        self.protocol = 'x10'
 
-    def initiateCommand(self,command, times= 0):
+    def initiateCommand(self,command, times=  0):
         if self.validateCommand(command):
             return 1
         return 0
